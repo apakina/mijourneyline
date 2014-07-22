@@ -13,9 +13,9 @@ exports.getAllJournyPoints = function(req, res) {
 exports.addJourneyPoint = function(req, res) {
 
 		var journeypoint = new Journeypoint(); 		// create a new instance of the Journeypoint model
-		Journeypoint.title = req.body.title;  		// set the Journey Title name (comes from the request)
+		journeypoint.title = req.body.title;  		// set the Journey Title name (comes from the request)
 		// save the bear and check for errors
-		Journeypoint.save(function(err) {
+		journeypoint.save(function(err) {
 			if (err)
 				res.send(err);
 

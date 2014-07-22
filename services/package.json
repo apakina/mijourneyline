@@ -23,17 +23,6 @@
   },
   "dependencies": {
     "express": "~4.0.0",
-    "sqlite3": "^2.2.3",
-    "requestify": "^0.1.16",
-    "q": "^1.0.1",
-    "socket.io": "^0.9.16",
-    "underscore": "^1.6.0",
-    "passport": "^0.2.0",
-    "passport-local": "^0.1.6",
-    "express-jwt": "~0.2.1",
-    "jwt-simple": "~0.2.0",
-    "connect-flash": "~0.1.1",
-    "moment": "^2.7.0",
     "mongoose": "~3.6.13",
 	"body-parser": "~1.0.1"
   },
