@@ -1,0 +1,49 @@
+{
+  "name": "mi-journey-line-services",
+  "version": "0.0.1",
+  "description": "Backend services for Mi Journey",
+  "main": "server.js",
+  "scripts": {
+    "test": "node_modules/.bin/grunt ci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apakina/mijourneyline-services"
+  },
+  "keywords": [
+    "mijourneyline",
+    "journeypoint",
+    "offline"
+  ],
+  "author": "Mi Journey Team Reetesh, Anil",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url"	: "https://github.com/apakina/mijourneyline-services/issues",
+    "email" : "anil_pakina@intuit.com"
+  },
+  "dependencies": {
+    "express": "~4.0.0",
+    "sqlite3": "^2.2.3",
+    "requestify": "^0.1.16",
+    "q": "^1.0.1",
+    "socket.io": "^0.9.16",
+    "underscore": "^1.6.0",
+    "passport": "^0.2.0",
+    "passport-local": "^0.1.6",
+    "express-jwt": "~0.2.1",
+    "jwt-simple": "~0.2.0",
+    "connect-flash": "~0.1.1",
+    "moment": "^2.7.0",
+    "mongoose": "~3.6.13",
+	"body-parser": "~1.0.1"
+  },
+  "devDependencies": {
+    "expect.js": "~0.2.0",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.1",
+    "grunt-mocha-cli": "~1.1.0",
+    "grunt-complexity": "~0.1.3",
+    "grunt-cli": "~0.1.9"
+  }
+}
